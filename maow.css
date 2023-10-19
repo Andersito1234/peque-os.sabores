@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+}
+body{
+    background-image: url(https://www.cuerpomente.com/medio/2022/11/17/recetas-de-galletas-de-navidad_d57ccbe7_1280x720.jpg);
+}
+header {
+    background: rgba(171, 117, 42, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 150;
+    margin: 0px;
+    padding: 50px;
+  } 
+
+  nav {
+    float: left;
+    background-color: #674f20;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+
+
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+      float: left;
+      font-family: cursive;
+      ;
+      font-size: 20px;
+  }
+
+
+  nav ul li a {
+      display: block;
+      padding: 20px;
+      color: #fff;
+      text-decoration: none;
+  }
+
+  nav ul li:hover {
+    background: #483106;
+    
+    }
+
+
